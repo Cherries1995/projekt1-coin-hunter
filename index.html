@@ -9,15 +9,18 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body onload="priNacteniStranky();" onkeydown="priStisknutiKlavesy(event);">
 
+	<img id="panacek" src="obrazky/panacek.png" alt="Panáček"  >
+	<!-- <img id="panacek-up" src="obrazky/panacek-nahoru.png" alt="Panáček" >
+		<img id="panacek-left" src="obrazky/panacek-vlevo.png" alt="Panáček" >
+		<img id="panacek-right" src="obrazky/panacek-vpravo.png" alt="Panáček" >
 
-
-	<img id="panacek" src="obrazky/panacek.png" alt="Panáček">
-
-	<!--
+		
+	-->
+	
 	<img id="mince" src="obrazky/mince.png" alt="Mince">
-
+	
 	<div id="score">0</div>
 
 	<audio id="hudba" src="zvuky/hudba.mp3" autoplay loop></audio>
@@ -25,7 +28,7 @@
 	<audio id="zvukmince" src="zvuky/mince.mp3"></audio>
 
 	<audio id="zvukfanfara" src="zvuky/fanfara.mp3"></audio>
-	-->
+	
 
 	<script src="main.js"></script>
 </body>
